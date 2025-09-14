@@ -4,23 +4,20 @@ public class Day7 {
         boolean hobiolahraga = true;
         boolean sukakoding = false;
         //nilai booleam
-        System.out.println("hobi olahraga" );
-        System.out.println("suka koding " );
+        System.out.println("Apakah saya suka oalahrag?: " + hobiolahraga);
+        System.out.println("Apakah saya suka koding?: " + sukakoding);
 
         //char
         char hurufnamaakhir = 'A';
-        char inisial = 'A';
+        char inisial = 'B';
         char simbol = '#';
         //menampilkan
-        System.out.println("Huruf pertama: " + hurufnamaakhir);
-        System.out.println("huruf kedua: " + inisial);
-        System.out.println("simbol: " + simbol);
+        System.out.println("Huruf nama akhir saya: " + hurufnamaakhir);
+        System.out.println("Inisial saya: " + inisial);
+        System.out.println("simbol favorit: " + simbol);
         //operasi
         char huruf3 = (char)(hurufnamaakhir + 1);
         System.out.println("huruf setelah 'A' adalah: " + huruf3);
-
-
-
     }
 }
     
